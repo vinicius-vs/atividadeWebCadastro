@@ -54,7 +54,6 @@ namespace WebTime7.Controllers
 
         // POST: TransportController1/Edit/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public ActionResult Edit( M model)
         {
             try
